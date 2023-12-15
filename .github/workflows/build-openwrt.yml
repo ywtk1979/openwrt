@@ -75,7 +75,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds install -a
 
     - name: Install rtl88x2bu
-      run: cd openwrt/lede/package/kernel && git clone https://github.com/hkucs-makerlab/openwrt-rtl8812bu-package.git
+      run: cd openwrt/package/kernel && git clone https://github.com/hkucs-makerlab/openwrt-rtl8812bu-package.git
 
     - name: Load custom configuration
       run: |
